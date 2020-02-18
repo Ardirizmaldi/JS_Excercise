@@ -1,0 +1,16 @@
+{
+  "name": "pangram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}

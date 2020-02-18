@@ -28,12 +28,14 @@ const listUSAuser = function () {
     var listUser = [];
     return people.filter((p) => {
         return p.us == true;
-    }).concat(listUser.sort());
+    }).concat(listUser.sort((a, b) => a.name - b.name));
 };
+
+console.log(listUSAuser());
 
 //Part 5
 const sortAgeUser = function () {
-    return people.sort((a, b) => Number(a.age) - Number(b.age));
+    return people.sort((a, b) => (a.age) - (b.age));
 }
 
 //Part 6
